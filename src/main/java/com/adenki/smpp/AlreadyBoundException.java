@@ -9,6 +9,7 @@ public class AlreadyBoundException extends com.adenki.smpp.SMPPRuntimeException 
     static final long serialVersionUID = 2L;
     
     public AlreadyBoundException() {
+        super();
     }
 
     /**

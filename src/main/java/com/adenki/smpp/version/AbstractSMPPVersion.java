@@ -47,6 +47,7 @@ public abstract class AbstractSMPPVersion implements SMPPVersion {
         return versionID > otherVersion.getVersionID();
     }
 
+    @Override
     public boolean equals(Object obj) {
         if (this == obj) {
             return true;
@@ -58,6 +59,7 @@ public abstract class AbstractSMPPVersion implements SMPPVersion {
         }
     }
 
+    @Override
     public int hashCode() {
         return new Integer(versionID).hashCode();
     }
@@ -66,6 +68,7 @@ public abstract class AbstractSMPPVersion implements SMPPVersion {
         return versionID == this.versionID;
     }
 
+    @Override
     public String toString() {
         return versionString;
     }

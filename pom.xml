@@ -15,34 +15,16 @@
   <url>http://smppapi.sf.net/</url>
 
   <organization>
-    <name>smppapi at Sourceforge</name>
+    <name>smppapi fork on github</name>
     <url>http://smppapi.sf.net/</url>
   </organization>
   
   <licenses>
     <license>
       <name>GNU Lesser General Public License 2.1</name>
-      <url>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt</url>
+      <url>https://github.com/umermansoor/java-smpp-api</url>
     </license>
   </licenses>
-  
-  <scm>
-    <connection>scm:svn:https://smppapi.svn.sourceforge.net/svnroot/smppapi/smppapi/trunk</connection>
-    <developerConnection>scm:svn:https://smppapi.svn.sourceforge.net/svnroot/smppapi/smppapi/trunk</developerConnection>
-    <url>http://smppapi.svn.sourceforge.net/viewvc/smppapi/smppapi/trunk</url>
-  </scm>
-  
-  <issueManagement>
-    <system>Sourceforge</system>
-    <url>https://sourceforge.net/tracker/?group_id=26854</url>
-  </issueManagement>
-  
-  <mailingLists>
-    <mailingList>
-      <name>pbm-devel</name>
-      <archive>https://sourceforge.net/mailarchive/forum.php?forum_name=smppapi-devel</archive>
-    </mailingList>
-  </mailingLists>
   
   <developers>
     <developer>
@@ -57,27 +39,6 @@
       </roles>
     </developer>
   </developers>
-  
-  <distributionManagement>
-    <repository>
-      <id>Sourceforge</id>
-      <name>smppapi repository</name>
-      <url>scp://web.sourceforge.net/home/groups/s/sm/smppapi/htdocs/maven-repo</url>
-      <layout>default</layout>
-    </repository>
-    <snapshotRepository>
-      <id>Sourceforge</id>
-      <name>smppapi snapshot repository</name>
-      <url>scp://web.sourceforge.net/home/groups/s/sm/smppapi/htdocs/maven-snapshot-repo</url>
-      <layout>default</layout>
-      <uniqueVersion>true</uniqueVersion>
-    </snapshotRepository>
-    <site>
-      <id>Sourceforge</id>
-      <name>Sourceforge Site</name>
-      <url>scp://web.sourceforge.net/home/groups/s/sm/smppapi/htdocs/maven</url>
-    </site>
-  </distributionManagement>
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
